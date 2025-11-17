@@ -9,7 +9,7 @@ async function main() {
   const client = new RionClient({
     rpcUrl: "https://data-seed-prebsc-1-s1.binance.org:8545",
     registryAddress: "0x1111111111111111111111111111111111111111",
-    chainId: 97, // BSC Testnet
+    chainId: 97, // BSC Testnet.
   })
 
   console.log("RION SDK Basic Usage Examples\n")
