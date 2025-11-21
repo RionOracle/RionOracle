@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
-    "lint": "eslint .",
-    "start": "next start"
+    "build": "pnpm next build",
+    "dev": "pnpm next dev",
+    "lint": "pnpm eslint .",
+    "start": "pnpm next start",
+    "format": "pnpm prettier --write ."
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

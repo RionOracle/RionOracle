@@ -1,0 +1,8 @@
+node_modules/
+.next/
+dist/
+build/
+*.config.js
+*.config.mjs
+.eslintrc.json
+coverage/
